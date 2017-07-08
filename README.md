@@ -40,13 +40,13 @@
 * 사실 문제정의라는 것은 분석할 사람 마음이지만 실습개념에서 위와 같은 문제로 정의하고 진행한다.
 * 데이터를 불러와서 어떻게 생겼는지 보자
 
-
-	bank_0 <- read.csv("bank-additional-full.csv" , stringsAsFactors = F , header = T
-                  , na.strings=c("","NA","unknown")
-                  , sep = ";")
-	head(bank0)
-	str(bank0)
-
+<pre><code>
+bank_0 <- read.csv("bank-additional-full.csv" , stringsAsFactors = F , header = T
+	  , na.strings=c("","NA","unknown")
+	  , sep = ";")
+head(bank0)
+str(bank0)
+</code></pre>
 
 ## 2.데이터탐색
 #### 2.1 데이터탐색이란?
