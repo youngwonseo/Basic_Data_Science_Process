@@ -1,7 +1,5 @@
 
 ## 데이터 분석의 5단계
-
-
 1. 문제정의
 2. 데이터탐색
 3. 데이터준비
@@ -13,7 +11,6 @@
 
 
 ## 분석 데이터 및 환경
-
 * 언어 : R
 * IDE : R Studio
 * 데이터 : 포르투칼 은행 캠페인 데이터 셋
@@ -30,15 +27,17 @@
 
 
 ## 문제정의
+* 데이터 분석에 앞서 데이터 분석을 통하여 어떠한 문제를 해결할 것인지 정의하는 단계
+* **우리는 이러한 데이터를 이용하여 저러한 문제를 풀어보겠다!**
+* 결국 데이터 분석을 수행하는 목적을 정의하여 진행 방향을 결정하는 단계
+*
 
 
 
-<pre><code>
-bank_0 <- read.csv("bank-additional-full.csv" , stringsAsFactors = F , header = T
+	bank_0 <- read.csv("bank-additional-full.csv" , stringsAsFactors = F , header = T
                   , na.strings=c("","NA","unknown")
                   , sep = ";")
 
-</code></pre>
 
 
 ## 데이터탐색
