@@ -41,7 +41,11 @@
 * 데이터를 불러와서 어떻게 생겼는지 보자
 
 
-
+	bank_0 <- read.csv("bank-additional-full.csv" , stringsAsFactors = F , header = T
+                  , na.strings=c("","NA","unknown")
+                  , sep = ";")
+	head(bank0)
+	str(bank0)
 
 
 ## 2.데이터탐색
