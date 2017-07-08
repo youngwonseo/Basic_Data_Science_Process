@@ -33,12 +33,12 @@
 
 
 
-'`'
+`
 bank_0 <- read.csv("bank-additional-full.csv" , stringsAsFactors = F , header = T
                   , na.strings=c("","NA","unknown")
                   , sep = ";")
 
-'`'
+`
 
 
 ## µ¥ÀÌÅÍÅ½»ö
