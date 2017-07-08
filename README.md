@@ -33,12 +33,12 @@
 
 
 
-`
+<pre><code>
 bank_0 <- read.csv("bank-additional-full.csv" , stringsAsFactors = F , header = T
                   , na.strings=c("","NA","unknown")
                   , sep = ";")
 
-`
+</code></pre>
 
 
 ## 데이터탐색
