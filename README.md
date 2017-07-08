@@ -13,3 +13,34 @@
 
 
 ## 분석 데이터 및 환경
+
+* 언어 : R
+* IDE : R Studio
+* 데이터 : 포르투칼 은행 캠페인 데이터 셋
+
+
+R 다운로드 링크
+* R 설치 : https://cloud.r-project.org/    base 설치
+* R Studio 설치 : https://www.rstudio.com/ free버전 설치
+
+
+
+
+
+
+
+## 문제정의
+
+
+
+
+## 데이터탐색
+
+## 데이터준비
+
+## 모델 생성
+
+## 검증
+
+
+## 시스템구축
