@@ -19,7 +19,7 @@
 * 데이터 : 포르투칼 은행 캠페인 데이터 셋
 
 
-R 다운로드 링크
+다음은 실습을 위한 R 다운로드 링크이다.
 * R 설치 : https://cloud.r-project.org/    base 설치
 * R Studio 설치 : https://www.rstudio.com/ free버전 설치
 
@@ -32,6 +32,13 @@ R 다운로드 링크
 ## 문제정의
 
 
+
+'`'
+bank_0 <- read.csv("bank-additional-full.csv" , stringsAsFactors = F , header = T
+                  , na.strings=c("","NA","unknown")
+                  , sep = ";")
+
+'`'
 
 
 ## 데이터탐색
