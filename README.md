@@ -39,7 +39,6 @@
 * 기존 고객들의 정보와 해당 고객의 예금 가입여부 통해 새로운 고객의 가입여부를 예측해보자!
 * 사실 문제정의라는 것은 분석할 사람 마음이지만 실습개념에서 위와 같은 문제로 정의하고 진행한다.
 * 데이터를 불러와서 어떻게 생겼는지 보자
-
 <pre><code>
 bank_0 <- read.csv("bank-additional-full.csv" , stringsAsFactors = F , header = T
 	  , na.strings=c("","NA","unknown")
